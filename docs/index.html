@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Pentatomoidea Portal</title>
+    <meta charset="utf8" />
+  </head>
+  <body>
+    <h1>Pentatomoidea Portal</h1>
+    
+    <section>
+      <h2>Identify</h2>
+      <ul>
+        <li><a href="https://larsgw.github.io/pentatomoidea-nymphs/">Identify European nymphs</a></li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>iNaturalist</h2>
+      <ul>
+        <li><a id="link-inat-maintain" href="https://www.inaturalist.org/observations/identify?quality_grade=needs_id%2Cresearch&order=asc&taxon_id=47743&without_term_id=1&without_field=Multiple%20life%20stages%20-%20Nymph&without_field=Multiple%20life%20stages%20-%20Adult&without_field=Multiple%20life%20stages%20-%20Egg">Maintain annotations</a></li>
+        <li><a id="link-identify" href="https://www.inaturalist.org/observations/identify?taxon_id=47743&term_id=1">Identify annotated observations</a></li>
+      </ul>
+    </section>
+
+    <script>
+      const completedPlaces = [7207, 7008, 8147, 7506, 6753, 6718, 7236, 7016, 8051, 6857, 6774, 8227, 7122, 10282, 10298, 7020, 8265, 8050, 8266, 7800, 7578, 8267, 8264, 8263, 7399, 8057, 10310, 9213, 8240]
+      {
+        const a = document.getElementById('link-inat-maintain')
+        a.setAttribute('href', `${a.href}&place_id=${completedPlaces}`)
+      }
+      {
+        const a = document.getElementById('link-inat-identify')
+        a.setAttribute('href', `${a.href}&place_id=${completedPlaces}`)
+      }
+    </script>
+  </body>
+</html>
