@@ -28,6 +28,7 @@ const completedPlaces = [
   10310, // SM
   9213,  // VA
   8240,  // MT
+  7599,  // SE
 ]
 
 const currentPlace = 6973 // IT
