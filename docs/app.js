@@ -29,9 +29,12 @@ const completedPlaces = [
   9213,  // VA
   8240,  // MT
   7599,  // SE
+  7278,  // IC
+  10290, // FO
+  6973,  // IT
 ]
 
-const currentPlace = 6973 // IT
+const currentPlace = 8228 // SI
 
 {
   const a = document.getElementById('link-inat-maintain')
