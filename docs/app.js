@@ -33,9 +33,11 @@ const completedPlaces = [
   10290, // FO
    6973, // IT
    8228, // SI
+   8860, // UK
+  10302, // MD
 ]
 
-const currentPlace = 8860 // UK
+const currentPlace = 8858 // RO
 
 {
   const a = document.getElementById('link-inat-maintain')
