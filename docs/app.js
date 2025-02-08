@@ -35,9 +35,13 @@ const completedPlaces = [
    8228, // SI
    8860, // UK
   10302, // MD
+   8858, // RO
+   7147, // RS
+   8268, // BA
+   8859, // ME
 ]
 
-const currentPlace = 8858 // RO
+const currentPlace = 8196 // HR
 
 {
   const a = document.getElementById('link-inat-maintain')
